@@ -17,4 +17,4 @@ class Graph {
 }
 const Pi = 3.1415;
 
-export {sum, divide, substract, multyply};
+export {sum, divide, substract as sub, multyply};
