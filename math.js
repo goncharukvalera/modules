@@ -10,7 +10,7 @@ function multyply(a, b) {
 function divide(a, b) {
     return a / b;
 }
-class Graph {
+export default class Graph { // экспорт по умолчанию при создании
     addNode() {
         console.log('node added');
     }
@@ -18,4 +18,3 @@ class Graph {
 const Pi = 3.1415;
 
 export {sum, divide, substract as sub, multyply};
-export default Graph; // экспорт по умолчанию
