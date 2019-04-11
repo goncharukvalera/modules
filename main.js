@@ -1,4 +1,6 @@
-import * as calc from "./math"; // импорт всех сущностей из модуля как объекта
+import Graph from "./math"; // импорт сущности по умолчанию
+// или импорт сразу с алиасом
+import Gr1 from "./math";
 
-console.log(calc.add(1, 2));
-console.log(calc.Pi);
+console.log(typeof Graph); // function, почему?
+console.log(typeof Gr1);
