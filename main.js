@@ -1,6 +1,8 @@
-import Graph from "./math"; // импорт сущности по умолчанию
-// или импорт сразу с алиасом
-import Gr1 from "./math";
+// можно совмещать
+import Gr1, {divide, sub} from "./math";
+// или даже так
+import Gr1, * as calc from "./math";
 
-console.log(typeof Graph); // function, почему?
 console.log(typeof Gr1);
+console.log(sub(5, 4));
+console.log(calc.sum(2, 5));
